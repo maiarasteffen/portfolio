@@ -19,7 +19,7 @@ Esse é meu portifólio que foi criado com intúito de mostrar minhas habilidade
 ### Link
 
 - Código do desenvolvimento: [Portifólio](https://github.com/maiarasteffen/portfolio)
-- Front do projeto: [Front]([https://keen-buttercream-7e2574.netlify.app/](https://cerulean-platypus-81b554.netlify.app/)
+- Front do projeto: [Front](https://cerulean-platypus-81b554.netlify.app/)
 
 
 ### O que aprendi
