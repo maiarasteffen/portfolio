@@ -9,7 +9,7 @@ html {
   }
   
   body {
-    background-color: var(--cor-fundo-cinza-escuro);
+    background-color: var(--cor-secundaria);
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
   }
@@ -53,15 +53,11 @@ html {
   }
   
   .outer-shadow {
-    box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
-  }
-  
-  .inner-shadow {
-    box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
+    box-shadow: 2px 1px 1px #222327, -3px -3px 3px #ff66c4;
   }
 
   .section{
-    padding: 7rem 0 7rem;
+    padding: 2rem 0 7rem;
   }
   
   .section-title {
@@ -80,12 +76,14 @@ html {
   .botao {
     font-size: var(--fonte-grande);
     padding: 10px 20px;
+    border: 2px solid var(--cor-primaria);
     border-radius: 20px;
     transition: all .3s ease;
     background-color: var(--cor-primaria);
   }
   
   .botao:hover {
+    border: 2px solid var(--cor-primaria);
     background-color: var(--cor-secundaria);
-    color: var(--cor-branca);
+    color: var(--cor-primaria);
   }

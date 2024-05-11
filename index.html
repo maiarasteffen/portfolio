@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ricardo Hofstetter Dias - Desenvolvedor Frontend</title>
+  <title>Maiara Steffen - Desenvolvedora Frontend</title>
 
   <link rel="stylesheet" href="src/css/font-awesome.css" />
   <link rel="stylesheet" href="src/css/reset.css" />
@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="src/css/secoes/projetos.css" />
   <link rel="stylesheet" href="src/css/secoes/footer.css" />
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
 
 <body>
@@ -28,7 +28,9 @@
     <div class="container">
       <div class="row justify-content-between alinhar-itens-no-centro">
         <a href="#">
-          <h1 class="logo">RD</h1>
+          <h1 class="logo">
+            <img src="./src/imagens/logo.png" alt="">
+          </h1>
         </a>
         <nav>
           <input id="menu-hamburguer" type="checkbox" />
@@ -53,25 +55,26 @@
       <div class="row full-screen alinhar-itens-no-centro">
         <div class="texto-home">
           <p>Olá 🖖,</p>
-          <h1>Sou o Ricardo Dias</h1>
-          <h2>Desenvolvedor Frontend</h2>
+          <h1>Sou Maiara Steffen</h1>
+          <h2>Desenvolvedora Web</h2>
 
           <div class="redes-sociais">
-            <a href="#" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-            <a href="#" class="outer-shadow"><i class="fab fa-github"></i></a>
-            <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/maiara-steffen/" class="outer-shadow" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/qr/GBQDRJY5HYRAL1" class="outer-shadow" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/maiarasteffen" class="outer-shadow" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/maiara_steffen/" class="outer-shadow" target="_blank"><i class="fab fa-instagram"></i></a>
           </div>
         </div>
 
         <div class="img-home">
           <div class="img-box inner-shadow">
-            <img class="outer-shadow" src="src/imagens/foto-perfil.png" alt="foto do perfil do Ricardo" />
+            <img class="outer-shadow" src="src/imagens/foto-perfil.png" alt="foto do perfil do Maiara" />
           </div>
         </div>
       </div>
     </div>
   </section>
+
   <section class="sobre-mim section" id="sobre-mim">
     <div class="container">
       <div class="row">
@@ -81,27 +84,26 @@
       </div>
       <div class="row">
         <div class="imagem-sobre-mim">
-          <div class="img-box inner-shadow">
-            <img src="src/imagens/foto-perfil.png" alt="foto sobre mim" class="outer-shadow" />
+          <div class="img-box">
+            <img src="src/imagens/maiara.png" alt="foto sobre mim"/>
           </div>
         </div>
         <div class="informacoes-sobre-mim">
           <p>
-            <strong>Olá! Me chamo Ricardo Dias e sou um desenvolvedor frontend em
-              formação!</strong>
-              Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+            <strong>Olá! Me chamo Maiara Steffen e sou um desenvolvedor Web!</strong>
+              Sou apaixonada por tecnologia e sei que posso contribuir muito com minhas habilidades.
           </p>
 
           <p>
-           Estou sempre me desafiando coim novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁
+           Estou sempre criando novos projetos e buscando aprender cada vez mais a codar e novos códigos. Comecei, praticamente na parte de back-end, com PHP, desenvolvendo integrações com Rest API, além de me organizar nos projetos, pois facilita na hora de desenvolver. Mas também desenvolvi minhas habilidades na área de front-end, com HTML5, CSS3, JavaScript e React e estou estou estudando a parte de back-end com Node.js e Typescript. Também sei banco de dados MySQL e PostgreSQL e estou aprendendo SQL Server. 😁
           </p>
 
           <p>
-            Ah, gosto de jogos, filmes, séries, animes e outras nerdices. 💜
+            Ah, também sou mãe da Pérola, gosto muito de estar com a família, além de praia e natureza. Mas quando estou em casa gosto de assistir filmes de ficção e animes com a minha filha. 💜
           </p>
 
           <div class="botoes">
-            <a target="_blank" href="/src/arquivos/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
+            <a target="_blank" href="./src/imagens/currículo.pdf" class="botao">Veja meu CV</a>
           </div>
         </div>
       </div>
@@ -116,15 +118,17 @@
         </div>
       </div>
 
+      <div class="arrow left">
+        <h2><</h2>
+      </div>
+
       <div class="container-habilidades">
+
         <div class="informacoes javascript">
           <div class="logo">
             <i class="devicon devicon-javascript-plain" id="javascript"></i>
           </div>
           <h3>JavaScript</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
-            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
-            dignissimos possimus!</p>
         </div>
 
         <div class="informacoes html">
@@ -132,9 +136,6 @@
             <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
           </div>
           <h3>HTML5</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
-            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
-            dignissimos possimus!</p>
         </div>
 
         <div class="informacoes css">
@@ -142,9 +143,27 @@
             <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
           </div>
           <h3>CSS3</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
-            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
-            dignissimos possimus!</p>
+        </div>
+
+        <div class="informacoes php">
+          <div class="logo">
+            <i class="devicon-php-plain" id="php"></i>
+          </div>
+          <h3>PHP</h3>
+        </div>
+
+        <div class="informacoes nodejs">
+          <div class="logo">
+            <i class="devicon-nodejs-plain-wordmark" id="nodejs" ></i>
+          </div>
+          <h3>Node.js</h3>
+        </div>
+
+        <div class="informacoes typescript">
+          <div class="logo">
+            <i class="devicon-typescript-plain" id="typescript"></i>
+          </div>
+          <h3>Typescript</h3>
         </div>
 
         <div class="informacoes github">
@@ -152,9 +171,6 @@
             <i class="devicon devicon-github-original" id="github"></i>
           </div>
           <h3>GitHub</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
-            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
-            dignissimos possimus!</p>
         </div>
 
         <div class="informacoes git">
@@ -162,11 +178,34 @@
             <i class="devicon devicon-git-plain" id="git"></i>
           </div>
           <h3>Git</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
-            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
-            dignissimos possimus!</p>
+        </div>
+
+        <div class="informacoes postman">
+          <div class="logo">
+            <i class="devicon-postman-plain" id="postman"></i>
+          </div>
+          <h3>Postman</h3>
+        </div>
+
+        <div class="informacoes mysql">
+          <div class="logo">
+            <i class="devicon-mysql-plain-wordmark" id="mysql"></i>
+          </div>
+          <h3>MySQL</h3>
+        </div>
+
+        <div class="informacoes postgresql">
+          <div class="logo">
+            <i class="devicon-postgresql-plain" id="postgresql"></i>
+          </div>
+          <h3>PostgreSQL</h3>
         </div>
       </div>
+
+      <div class="arrow right">
+        <h2>></h2>
+      </div>
+
     </div>
   </section>
 
@@ -180,46 +219,55 @@
 
       <div class="container-projetos">
         <div class="projeto">        
-          <a href="https://github.com">
-            <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
-            <h3>Projeto 1</h3>
+          <a href="https://boisterous-kheer-6ee2e8.netlify.app/" target="_blank">
+            <img src="./src/imagens/one-piece-home.png" alt="One Piece Home" />
+            <h3>One Piece</h3>
             <div class="informacoes-projeto">          
               <p>Projeto feito usando HTML, CSS e JavaScript</p>
-              <p>🔗 Ver no GitHub Pages</p>
+              <p>🔗 Ver o projeto</p>
             </div>     
+          </a>
+          <a class="github" href="https://github.com/maiarasteffen/onePiece2" target="_blank">
+            <p>🔗 Ver no GitHub</p>
           </a>
         </div>
 
         <div class="projeto">        
-          <a href="https://github.com">
-            <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
-            <h3>Projeto 2</h3>
+          <a href="https://master--tranquil-cupcake-b114ef.netlify.app/" target="_blank">
+            <img src="./src/imagens/jogo-nave.png" alt="Jogo da Nave" />
+            <h3>Jogo da Nave</h3>
             <div class="informacoes-projeto">          
-              <p>Lorem ipsum</p>
-              <p>🔗 Ver no GitHub Pages</p>
+              <p>Projeto feito utilizando Canvas no Javascript</p>
+              <p>🔗 Ver o projeto</p>
             </div>      
-          </a>          
+          </a> 
+          <a class="github" href="https://github.com/maiarasteffen/jogo_nave_definitivo" target="_blank">
+            <p>🔗 Ver no GitHub</p>
+          </a>         
         </div>
 
         <div class="projeto">     
-          <a href="https://github.com">
-            <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
-            <h3>Projeto 3</h3>
+          <a href="https://github.com/maiarasteffen/formulario-endereco" target="_blank">
+            <img src="./src/imagens/formulario-endereco.png" alt="Formulário de Endereço" />
+            <h3>Formulário de Endereço</h3>
             <div class="informacoes-projeto">
-              <p>Lorem ipsum</p>
-              <p>🔗 Ver no GitHub Pages</p>
+              <p>Formulário de endereço criado em PHP e utilizando API Via Cep para pesquisa</p>
+              <p>🔗 Ver no GitHub</p>
             </div>
           </a>   
         </div>
 
         <div class="projeto">
-          <a href="https://github.com">
-            <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
-            <h3>Projeto 4</h3>
+          <a href="https://663ebf0df60fc174aa89b6bb--rad-rabanadas-c38d92.netlify.app/" target="_blank">
+            <img src="./src/imagens/calendario.png" alt="Calendario" />
+            <h3>Calendario</h3>
             <div class="informacoes-projeto">
-              <p>Lorem ipsum</p>
-              <p>🔗 Ver no GitHub Pages</p>
+              <p>Calendario criado com javaScript, HTML e CSS</p>
+              <p>🔗 Ver o projeto</p>
             </div>
+          </a>
+          <a class="github" href="https://github.com/maiarasteffen/calendario/tree/master" target="_blank">
+            <p>🔗 Ver no GitHub</p>
           </a>
         </div>
       </div>
@@ -236,7 +284,29 @@
         <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
       </div>
     </div>
-  </footer>
+  </footer> 
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const container = document.querySelector('.container-habilidades');
+      const leftArrow = document.querySelector('.arrow.left');
+      const rightArrow = document.querySelector('.arrow.right');
+
+      leftArrow.addEventListener('click', function() {
+          scrollContainer(container, 240);
+      });
+
+      rightArrow.addEventListener('click', function() {
+          scrollContainer(container, -240);
+      });
+
+      function scrollContainer(container, distance) {
+        container.scrollBy({
+            left: distance,
+            behavior: 'smooth'
+        });
+      }
+    });
+  </script>
 </body>
 
 </html>

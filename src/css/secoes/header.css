@@ -3,9 +3,7 @@
 }
 
 .header .logo {
-    font-family: var(--fonte-secundaria);
-    font-size: var(--fonte-extra-grande);
-    color: var(--cor-branca);
+    background-color: var(--cor-branca);
     border: 2px solid var(--cor-branca);
     border-radius: 50%;
     width: 65px;
@@ -17,8 +15,7 @@
 }
 
 .header a:hover .logo {
-    color: var(--cor-primaria);
-    border: 2px solid var(--cor-primaria);
+    border: 3px solid var(--cor-primaria);
 }
 
 .header nav ul {
@@ -30,16 +27,15 @@
     color: var(--cor-branca);
     font-size: 2rem;
     font-weight: 500;
-    padding: 10px 20px;
+    margin: 10px 20px;
     transition: 0.2s;
-    border-radius: 50px;
     letter-spacing: 1px;
-    user-select: none;
 }
 
-.header nav ul li a:hover{
-    background-color: var(--cor-primaria);;
-    color: var(--cor-branca);
+.header nav ul li a:hover,
+.header nav ul li a:active {
+    border-bottom: 4px solid var(--cor-primaria);
+    color: var(--cor-primaria);
 }
 
 .header .menu{
@@ -108,6 +104,7 @@
     .header {
         padding: var(--mobile-padding);
     }
+
 }
 
 @media(max-width: 900px) {
@@ -115,7 +112,6 @@
         display: block; 
     }
 
-    /* pega todos os itens que após o input e que sao irmaos dele */
     .header nav input:checked ~ ul {
         display: block;
     }
@@ -129,14 +125,16 @@
 
    .header nav ul {
         display: none;        
-        background-color: var(--cor-fundo-escuro);         
+        background-color: var(--cor-primaria);         
         padding: 20px;       
     }
     
     .header nav li a {
-        color: var(--cor-branca);
+        color: var(--cor-secundaria);
         text-align: center;                
         padding: 20px;
         display: block;
+        transition: 0.3s;
     }
+
 }

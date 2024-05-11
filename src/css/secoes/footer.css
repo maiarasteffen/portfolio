@@ -2,7 +2,7 @@
 .footer {
     margin-top: 7rem;
     text-align: center;
-    background-color: var(--cor-fundo-cinza-claro);
+    background-color: var(--cor-primaria);
 }
 
 .footer .container {
@@ -12,7 +12,12 @@
 .footer h2 {
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-normal);
+    color: var(--cor-secundaria);
     font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 20px;
+}
+
+.footer .redes-sociais a {
+    background-color: var(--cor-secundaria);
 }

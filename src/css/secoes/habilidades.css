@@ -1,15 +1,54 @@
 /* HABILIDADES */
-.habilidades .container-habilidades {    
-    text-align: center;    
+
+.habilidades {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.habilidades .arrow {
+    position: absolute;
+    padding: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.arrow h2{
+    font-size: 40px;
+    margin: 0;
+}
+
+.arrow.left {
+    left: 0;
+}
+
+.arrow.right {
+    right: 0;
+}
+
+.habilidades .container-habilidades { 
+    text-align: center;  
+    width: 100%;  
     display: flex;
     justify-content: center;    
     flex-direction: row;
-    flex-wrap: wrap;
+    overflow-x: auto;
 }
 
-.habilidades .container-habilidades .informacoes{
-    max-width: 350px;
-    padding: 40px 20px;    
+.habilidades .container-habilidades::-webkit-scrollbar {
+    display: none;
+}
+
+.habilidades .container-habilidades .informacoes {
+    position: relative;
+    width: 200px;
+    margin: 0 15px;
+    padding: 40px 30px;
+    flex-shrink: 0;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
 }
 
 .habilidades .container-habilidades .informacoes p,
@@ -41,4 +80,22 @@
 
 .habilidades .container-habilidades .informacoes .logo i {
     font-size: 8rem;
+}
+
+@media (max-width: 1024px) {
+
+    .habilidades .container-habilidades { 
+        display: block;
+        
+    }
+
+    .habilidades .container-habilidades .informacoes {
+        width: 350px;
+        font-size: 25px;
+    }
+
+    .arrow.left,
+    .arrow.right {
+        display: none;
+    }
 }

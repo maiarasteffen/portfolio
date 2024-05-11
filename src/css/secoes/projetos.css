@@ -63,3 +63,9 @@
     padding-top: 10px;
     bottom: 0;
 }
+
+@media (max-width: 1024px) {
+    .github {
+        display: none;
+    }
+}
