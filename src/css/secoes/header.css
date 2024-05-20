@@ -105,6 +105,11 @@
         padding: var(--mobile-padding);
     }
 
+    .header nav ul li a:hover,
+    .header nav ul li a:active {
+        color: #fff;
+    }
+
 }
 
 @media(max-width: 900px) {
